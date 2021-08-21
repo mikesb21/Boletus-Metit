@@ -1,0 +1,61 @@
+#app {
+  font-family: "Klee One", cursive;
+  text-align: center;
+  color: #2c3e50;
+  background: rgb(255, 203, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 203, 107, 1) 0%,
+    rgba(61, 139, 255, 1) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-shadow: 0 0 3px #ffe5b5, 0 0 5px #ffe5b5;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #ffe5b5;
+  text-shadow: 0 0 3px #ffcb6b, 0 0 5px #000000;
+}
+
+.link {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.form-container {
+  width: 70vh;
+  border: 2px solid #8d5b4c;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-unit-container {
+  width: 60vh;
+  border: 1px solid #c4bbaf;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+  color: inherit;
+}
